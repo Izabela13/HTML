@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Linkowanie stylu z pliku styles.css. Właściwość, która znajduje się w pliku zewnętrznym. -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Style wewnątrzarkuszowe -->
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+
+    <!-- Styl, który jest najpóźniej zadeklarowany WYGRYWA
+         Pierwszy styl wyświetla wszystkie akapity na czerwono
+         Drugi styl powoduje, że tekst jest niebieski -->
+
+    <!-- Jeśli zamieścimy na odwrót - wówczas ważniejsza będzie deklaracja koloru czerwonego dla akapitów. -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+</head>
+<body>
+
+    <p style="color: green">Jakiś tekst</p>
+    <p> Jakiś tekst</p>
+
+</body>
+</html>

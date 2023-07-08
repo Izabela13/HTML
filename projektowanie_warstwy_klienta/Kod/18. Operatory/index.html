@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+      console.log('1' == 1); // rzutowanie na jeden z typów. Wynik: "true" - pod względem wartości są takie same
+      console.log('1' === 1); // z definicji zwróci "false" dla takiego porównania
+
+      console.log('1' != 1); // false
+      console.log('1' !== 1); // true
+
+
+
+      // incrementacja i deckrementacja
+
+      let n1 = 2;
+      let n2 = 2;
+
+      // incrementacja - preincrementacja i postincrementacja
+      console.log(++n1); // preincrementacja - najpierw dodano wartość i została ona zwrócona
+      console.log(n2++); // postincrementacja - wartość została zwrócona i została dodana wartość
+      console.log(n2);
+
+      // decrementacja - predecrementacja i postdecrementacja
+      let m1 = 2;
+      let m2 = 2;
+
+      console.log(--m1); // predecrementacja
+      console.log(m2--); // postdecrementacja
+
+
+
+      // modulo % - reszta z dzielenia
+      let n = 3;
+
+      console.log(n % 2); // 1
+      console.log(4 % 2); // 0
+
+
+
+      // Operatory logiczne
+
+      // koniunkcja
+      console.log(true && true); // true
+      console.log(true && true && false); // false
+
+      // alternatywa
+      console.log(true || false) // true
+      console.log(false || false) // false
+
+      // negacja
+      console.log(!false); // true
+      console.log(!true); // false
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
